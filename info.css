@@ -1,0 +1,209 @@
+body {
+    background-color: lightgreen;
+}
+
+/* B = Titulos
+   F = Caixas
+   H = Específicos
+*/
+
+#b1 { /* Nome */
+    color: blue;
+    font-style: italic;
+    font-size: 30px;
+    margin: 5px;
+}
+
+#b2 { /* Frase */
+    color: red;
+    font-size: 20px;
+    margin-top: 0px;
+    text-decoration: underline dotted red;
+}
+
+#b25 { /* seções */
+    text-shadow: 1px 1px 2px black;
+    color: aqua;
+    text-align: center;
+    font-size: 30px;
+}
+
+#b3 { /* Titulo - tipo 1 */
+    text-shadow: 1px 1px 2px black;
+    color: aqua;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+#b4 { /* Titulo - tipo 2 */
+    text-shadow: 1px 1px 2px black;
+    color: gold;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+
+#f1 { /* caixa azul */
+    border: 4px solid blue;
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+}
+
+#f2 { /* caixa verde */
+    border: 4px solid green;
+    background-color: greenyellow;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+}
+
+#f3 { /* caixa vermelha */
+    border: 4px solid red;
+    background-color: lightcoral;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+}
+
+#f4 { /* caixa laranja */
+    border: 4px solid orangered;
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+}
+
+#f5 { /* caixa para artigos */
+    border: 7px solid green;
+    background-color: lightgray;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+}
+
+#h1 { /* foto do lord */
+    display: flex;
+    background-color: white;
+    max-width:200px;
+    max-height:150px;    
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border: 11px solid transparent;
+    border-radius: 10px;
+    border-image: url("https://www.w3schools.com/css/border.png") 30% round;
+}
+
+.h2 { /* botões para os links */
+    a:link, a:visited {
+  background-color: red;
+  color: white;
+  padding: 5px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+}
+
+#h3 { /* BaBa's Titulo */
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  background-color: lightskyblue;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+#h4 { /* Link para artigos */
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+}
+
+#h45 { /* gmail */
+    color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#h5 { /* Past Titulo */
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  background-color: lightskyblue;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.h6 { /* links importantes */
+    a:link, a:visited {
+  background-color: red;
+  color: white;
+  padding: 5px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+}
+
+#h7 { /* agradecimentos */
+    display: flex;
+    background-color: white;
+    max-width:200px;
+    max-height:150px;    
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border: 11px solid transparent;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    border-image: url("https://www.w3schools.com/css/border.png") 30% round;
+}
+
+footer {
+    font-style: italic;
+    margin-top: 50px;
+}
